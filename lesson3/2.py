@@ -4,7 +4,6 @@
 
 '''
 
-import math
 x1 = int(input ('число1 - '))
 x2 = int(input ('число2 - '))
 print(x1 ** x2)

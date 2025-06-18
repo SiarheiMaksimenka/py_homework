@@ -4,9 +4,9 @@
 
 '''
 
-x1 = int(input ('значение 1 - '))
-x2 = int(input ('значение 2 - '))
-x3 = int(input ('значение 3 - '))
-num = round (((x1+x2+x3) / 3), 4)
+x1 = float (input ('значение 1 - '))
+x2 = float (input ('значение 2 - '))
+x3 = float (input ('значение 3 - '))
+num = round (((x1+x2+x3) / 3), 3)
 
 print (f"среднее арифметическое - {num}")
