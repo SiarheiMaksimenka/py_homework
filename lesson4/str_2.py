@@ -7,6 +7,7 @@
 '''
 
 num = list(map(int, input('несколько цифр:').split(',')))
+
 print ('сумма - ', sum(num))
 print ('максимальная цифра -', max(num))
 print ('среднее арифметическое - ', round (sum(num) / len (num), 3))
