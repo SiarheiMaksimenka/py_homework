@@ -8,4 +8,7 @@
 
 text = "Это тестовая <start>строка для изучения<end> строковых операций"
 
-print (text [text.find('<start>') + len('<start>'):text.rfind('<end>')] )
+start = text.find('<start>') + len('<start>')
+end = text.rfind('<end>')
+
+print (text [start:end] )

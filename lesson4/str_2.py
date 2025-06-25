@@ -6,7 +6,7 @@
 
 '''
 
-num = list(map(int, input('несколько цифр:').split(',')))
+num = list(map(int, input('несколько цифр:').split(' ')))
 
 print ('сумма - ', sum(num))
 print ('максимальная цифра -', max(num))
