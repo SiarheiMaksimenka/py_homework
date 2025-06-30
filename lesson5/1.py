@@ -10,21 +10,16 @@
     - вывести сумму всех товаров
 
 """
-import os
 
-os.system('cls')
+a1 = input("товар1: ").split()
+a2 = input("товар2: ").split()
+a3 = input("товар3: ").split()
 
-products = {input("товар1: ") : float(input("цена: ")), 
-            input("товар2: ") : float(input("цена: ")),
-            input("товар3: ") : float(input("цена: "))
-            }
+products = {a1[0]:int(a1[1]), a2[0]:int(a2[1]), a3[0]:int(a3[1])}
 
-os.system('cls')
+product = input("название товара: ")
 
-prod = input("название товара: ")
-
-os.system('cls')
-
-print (f"цена товара '{prod}' - {round((float(products[prod]) * 1.15), 2)}")
+print (f"цена товара '{product}' - {round((float(products[product]) * 1.15), 2)}")
 
 print (f"сумма товаров '{list(products.keys())}' - {sum(list(products.values()))}")
+
